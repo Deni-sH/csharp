@@ -8,26 +8,24 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\T-Gamer\\.nuget\\packages\\": {}
+    "C:\\Users\\HOTEL\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\project\\amem\\amem.csproj",
+      "projectUniqueName": "C:\\projec\\clone1\\csharp\\amem.csproj",
       "projectName": "amem",
-      "projectPath": "C:\\project\\amem\\amem.csproj",
-      "packagesPath": "C:\\Users\\T-Gamer\\.nuget\\packages\\",
-      "outputPath": "C:\\project\\amem\\obj\\",
+      "projectPath": "C:\\projec\\clone1\\csharp\\amem.csproj",
+      "packagesPath": "C:\\Users\\HOTEL\\.nuget\\packages\\",
+      "outputPath": "C:\\projec\\clone1\\csharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\T-Gamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\HOTEL\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
