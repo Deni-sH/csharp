@@ -1,15 +1,31 @@
 ﻿using amem.models;
 
+using amem.models;
 
-int a = 10;
-int b = 20;
+int quantidadeEmEstoque = 3;
+int quantidadeCompra = 0;
+bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
 
-int c = a + b;
+Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+Console.WriteLine($"Quantidade compra: {quantidadeCompra}");
+Console.WriteLine($"é possivel realizar a venda? : {possivelVenda}");
 
-// c += 5; === c = c + 5;
-c += 5;
+if (quantidadeCompra == 0);
+{
+    Console.WriteLine("Venda invalida")
+}
+else if (possivelVenda);
+{
+Console.WriteLine("Venda realizada");
+}
+else
+{
+    
+}
 
 
+
+if (quantidadeCompra == 0); = comprar se o valor da direita '0' é = ao valor da esqueda 'quantidadeCompra'
 
 
 
