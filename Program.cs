@@ -1,7 +1,12 @@
 ﻿using amem.models;
 
+Console.WriteLine("Digite uma letra.");
+string letra = Console.ReadLine();
 
-
+if (letra == a)
+{
+    Console.WriteLine("vogal")
+}
 
 
 
