@@ -1,25 +1,6 @@
 ﻿using amem.models;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Operador NOT 0
 
 // bool choveu = false;
