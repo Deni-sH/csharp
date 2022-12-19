@@ -49,6 +49,14 @@ namespace amem.models
             Console.Write($"Tangente de {angulo}° = {tangente}");
         }
 
+        public void Raiz(double x)
+        {
+        double raiz = Math.Sqrt(x);
+
+        Console.WriteLine($"Raiz  quadrada de {x} = {raiz}");
+
+        }
+
         
     }
 }

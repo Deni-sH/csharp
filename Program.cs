@@ -1,21 +1,17 @@
 ﻿using amem.models;
 
-Calculadora calc = new Calculadora();
 
 
 
-int numero = 10;
-Console.Write(numero);
+int numero = 5;
 
-Console.Write("incrementando o 10");
-
-Console.Write(numero + 1);
-
-
-
-
-
-
+contador 3 blocos. no primeiro a declaração da variavel 
+segundo: a condição de parada.
+terceiro: e enquanto meu contador vai ser considerado, nesse caso foi incrementado em 1.
+for(int contador = 0; contador <= 10; contador++)
+{
+    Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+}
 
 
 
@@ -23,12 +19,32 @@ Console.Write(numero + 1);
 
 
 
+// Calculadora calc = new Calculadora();
+
+// calculo 01
+// Math.Round arredondar
+// int numero = 10;
+
+
+// numero ++;
+// Console.WriteLine("incrementando o 10");
+// Console.WriteLine(numero);
+
+
+// // numero = numero + 1; = 11 ambos iguais a numero ++; = 11
+
+// int numerodecremento = 20;
+// numerodecremento --;
+// Console.WriteLine(numerodecremento);
+// Console.WriteLine("decrementando");
+
+// calc.Raiz(9);
+
+// ------------------------------------------
 
 
 
-
-
-// Calculos 01
+// Calculos 00
 // calc.Somar(10, 30);
 // calc.Subtrair(10, 50); = -40
 // calc.Multiplicar(15, 45);
