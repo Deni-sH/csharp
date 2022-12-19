@@ -1,5 +1,52 @@
 ﻿using amem.models;
 
+Calculadora calc = new Calculadora();
+
+
+
+int numero = 10;
+Console.Write(numero);
+
+Console.Write("incrementando o 10");
+
+Console.Write(numero + 1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Calculos 01
+// calc.Somar(10, 30);
+// calc.Subtrair(10, 50); = -40
+// calc.Multiplicar(15, 45);
+// calc.Dividir(2, 2);
+
+// calc.Potencia(3, 3);
+
+
+// calc.Seno(30);   = Seno de 30° = 0,49999999999999994 usando o comando {Math.Round(seno, 4)} em que seno = variável e 4 digitos 
+// calc.Seno(30);
+// calc.Coseno(30);    
+// calc.Tangente(30);
+
+
+
+
+// --------------------------------------------------------------------
+
 
 // Operador NOT 0
 
