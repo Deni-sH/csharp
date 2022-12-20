@@ -2,7 +2,10 @@
 
 
 
+// arquivos csharp
 
+// .csproj: build, debug e versão.
+//     .sln(solution): contém informações que carregam um agrupamento de projetos./ordem 
 
 
 
