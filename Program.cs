@@ -3,21 +3,106 @@
 
 
 
-int numero = 5;
-
-contador 3 blocos. no primeiro a declaração da variavel 
-segundo: a condição de parada.
-terceiro: e enquanto meu contador vai ser considerado, nesse caso foi incrementado em 1.
-for(int contador = 0; contador <= 10; contador++)
-{
-    Console.WriteLine($"{numero} x {contador} = {numero * contador}");
-}
 
 
 
 
 
 
+
+
+
+
+// do while
+// executaOcodigo antes da verificação
+// terminal só vai parar após usar um numero
+
+
+// int soma = 0, numero = 0; = variavel de mesmo atributo pode usar na mesma linha.
+
+// do
+// {
+//     Console.WriteLine("Digite um numero (0 para parar)");
+//     numero = Convert.ToInt32(Console.ReadLine());  Convert.ToInt32 para converter para string
+
+// soma += numero; = soma + numero, e o valor do numero entra na variavel soma. 0 += 5 = soma = 5. 5 += 10 = soma = 15.
+
+
+// }while(numero != 0);
+//     Console.WriteLine($"Total da soma dos números digitados é {soma}"); = misturar variavel com texto usa o $.
+
+
+
+
+
+
+// --------------------------------------------------------
+
+
+// Interrompendo execução
+
+
+//  int numero =5;
+//  int contador = 0;
+
+
+
+// while (contador <= 10)
+//  {
+//     Console.WriteLine($"{contador + 1}º Execução: x {numero} = {numero * contador}");
+//      contador++;
+
+//      if (contador == 6)           observação: quando chegar ao 6 ele para. pode ser usado no for tambem.
+
+//      break;
+//  }
+
+
+
+
+// -----------------------------------------------
+
+// contador 01
+
+// int numero =5;
+// int contador = 0;
+
+
+
+// while (contador <= 10)
+// {
+//     Console.WriteLine($"{contador + 1}º Execução: x {numero} = {numero * contador}"); 
+//     contador++;
+// }
+
+// Observação: contador + 1 é para iniciar apartir do 1º
+// while = enquanto for 
+
+
+
+
+
+
+// -------------------------------------------------------------
+// contador0
+
+
+// int numero = 5;
+
+// contador 3 blocos. no primeiro a declaração da variavel 
+// segundo: a condição de parada.
+// terceiro: e enquanto meu contador vai ser considerado, nesse caso foi incrementado em 1.
+
+// for(int contador = 0; contador <= 10; contador++)
+// {
+//     Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+// }
+
+
+
+
+
+// -----------------------------------------------------------------
 
 // Calculadora calc = new Calculadora();
 
