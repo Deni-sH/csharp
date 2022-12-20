@@ -1,12 +1,31 @@
 ﻿using amem.models;
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// array0
+
+// Array: uma variável que pode armazenar diversos valores
+
+// índice: posição de um determinado valor de um array, sempre começando com 0 
+
+// ---------------------------------------------------------
+
 // adicionar extensão: vs code solution.
 // ->aba solution add empy file -> name 
 // >adicionar projeto existente 
-
-
-
 
 
 // arquivos csharp
