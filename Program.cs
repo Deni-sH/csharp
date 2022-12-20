@@ -1,20 +1,20 @@
 ﻿using amem.models;
 
 
+// adicionar extensão: vs code solution.
+// ->aba solution add empy file -> name 
+// >adicionar projeto existente 
+
+
+
+
 
 // arquivos csharp
 
 // .csproj: build, debug e versão.
 //     .sln(solution): contém informações que carregam um agrupamento de projetos./ordem 
 
-
-
-
-
-
-
-
-
+// ---------------------------------------------------------
 
 // do while
 // executaOcodigo antes da verificação
