@@ -2,10 +2,57 @@
 
 
 
+
+
+
+
 // lista array for e foreach 
 
+// List<string> listaString = new List<string>();
+
+// Vantagem da lista: adicionar e remover sem precisar usar comando Resize & automaticamente redimenciona o tamanho da lista.
+
+// List<string> listaString = new List<string>();
+
+//  listaString.Add("SP");
+//  listaString.Add("BA");
+//  listaString.Add("MG");
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade {listaString.Capacity}");
+
+// listaString.Add("TO");
+
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade {listaString.Capacity}");
+
+// listaString.Remove("BA");
+
+// para obter o tamanho de um array e a quantidade de elementos em uma lista, respectivamente
+// Lengh e Count
 
 
+// ---------------------------------------------------------------
+
+
+// List<string> listaString = new List<string>();
+
+// listaString.Add("SP");
+// listaString.Add("BA");
+// listaString.Add("MG");
+
+// Console.WriteLine("Percorrendo a lista com o FOR");
+// for(int contador = 0; contador < listaString.Count; contador++)
+
+// {
+//     Console.WriteLine($"Posição N° {contador} - {listaString[contador]}");
+// }
+
+// // foreach
+
+// int contadorForeach = 0;
+// foreach(string item in listaString)
+// {
+//     Console.WriteLine($"Posição N° {contadorForeach} - {item}");
+//     contadorForeach++;
+// }
 
 
 
