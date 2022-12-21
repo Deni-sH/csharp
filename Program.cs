@@ -2,18 +2,83 @@
 
 
 
-int[] arrayInteiros = new int[3];
-
-arrayInteiros[0] = 72;
-arrayInteiros[1] = 74;
-arrayInteiros[2] = 85;
-
-for(int contador = 0; contador < arrayInteiros.Length; contador++)
+// lista array for e foreach 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// -----------------------------------------------------------------------------
+// copiando um array:  
+
+
+
+//  int[] arrayInteiros = new int[4];
+
+//  arrayInteiros[0] = 72;
+//  arrayInteiros[1] = 74;
+//  arrayInteiros[2] = 85;
+//  arrayInteiros[3] = 15;
+
+// int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
+// Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+
+//  for(int contador = 0; contador < arrayInteiros.Length; contador++)
+//  {
+//      Console.WriteLine($"Posição N° {contador} - {arrayInteiros[contador]}");
+//  }
+
+
+// -----------------------------------------------------------------
+
+// foreach acessar a uma lista sem depender de um contador 
+
+// aumentar a capacidade de um array:
+// Array.Resize(Ref arrayInteiros, arrayInteiros.Lengh * 2); <dobrar capacidade
+
+
+
+// int[] arrayInteiros = new int[3];
+
+// arrayInteiros[0] = 72;
+// arrayInteiros[1] = 74;
+// arrayInteiros[2] = 85;
+
+// for(int contador = 0; contador < arrayInteiros.Length; contador++)
+// {
+//     Console.WriteLine($"Posição N° {contador} - {arrayInteiros[contador]}");
+// }
+
+
+
+
+// foreach ----------- Abaixo:
+
+// int contadorForeach = 0;
+// foreach(int valor in arrayInteiros)
+// {
+//     contadorForeach++;
+//     Console.WriteLine($"Posição N° {contadorForeach} - {valor}");
+// }
 
 
 
@@ -25,11 +90,13 @@ for(int contador = 0; contador < arrayInteiros.Length; contador++)
 
 // índice: posição de um determinado valor de um array, sempre começando com 0 
 
-// ---------------------------------------------------------
+// -------------------------------------------------------------------------------
+
 
 // adicionar extensão: vs code solution.
 // ->aba solution add empy file -> name 
 // >adicionar projeto existente 
+
 
 
 // arquivos csharp
