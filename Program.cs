@@ -2,9 +2,13 @@
 
 
 
+int[] arrayInteiros = new int[3];
 
+arrayInteiros[0] = 72;
+arrayInteiros[1] = 74;
+arrayInteiros[2] = 85;
 
-
+for(int contador = 0; contador < arrayInteiros.Length; contador++)
 
 
 
