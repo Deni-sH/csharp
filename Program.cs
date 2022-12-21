@@ -1,6 +1,42 @@
 ﻿using amem.models;
 
 
+using System.IO;
+using System.Linq;
+
+class amemEx{
+
+    static void Main(string[] args)
+    {
+        int qt = int.Parse(Console.ReadLine());
+// TODO: Crie as outras condições necessárias para a resolução do desafio:
+        for (                 )
+        {
+            
+            string a = v[0];
+            string b = v[1];
+
+            if (0 > 1000)                  
+                Console.WriteLine("nao encaixa");
+            else if (0 <= 1000 || 1 <= 1000)                                )
+                Console.WriteLine("encaixa");
+            else
+                Console.WriteLine("nao encaixa");
+
+        }
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
