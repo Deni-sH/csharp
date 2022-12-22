@@ -7,6 +7,11 @@ namespace amem.models
 {
     public class Calculadora
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="x">Um numero para somar </param> 
+        /// <param name="y">Um numero para somar </param>
         public void Somar(int x, int y)
         {
             Console.WriteLine($"{x} + {y} = {x + y}");

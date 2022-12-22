@@ -1,32 +1,49 @@
 ﻿using amem.models;
 
+// ----------------------------------------------------------------------------------------
 
-using System.IO;
-using System.Linq;
+// exercicio 1
+// using System.IO;
+// using System.Linq;
 
-class amemEx{
+// class amemEx{
 
-    static void Main(string[] args)
-    {
-        int qt = int.Parse(Console.ReadLine());
-// TODO: Crie as outras condições necessárias para a resolução do desafio:
-        for (                 )
-        {
+//     static void Main(string[] args)
+//     {
+//         int qt = int.Parse(Console.ReadLine());
+// // TODO: Crie as outras condições necessárias para a resolução do desafio:
+//         for (                 )
+//         {
             
-            string a = v[0];
-            string b = v[1];
+//             string a = v[0];
+//             string b = v[1];
 
-            if (0 > 1000)                  
-                Console.WriteLine("nao encaixa");
-            else if (0 <= 1000 || 1 <= 1000)                                )
-                Console.WriteLine("encaixa");
-            else
-                Console.WriteLine("nao encaixa");
+//             if (0 > 1000)                  
+//                 Console.WriteLine("nao encaixa");
+//             else if (0 <= 1000 || 1 <= 1000)                                )
+//                 Console.WriteLine("encaixa");
+//             else
+//                 Console.WriteLine("nao encaixa");
 
-        }
+//         }
 
-    }
+//     }
 
+// }
+
+
+// ---------------------------------------------------------------------------
+
+
+while(true)
+{
+    Console.WriteLine("Digite a sua opção:");
+    Console.WriteLine("1 - Cadastrar cliente");
+    Console.WriteLine("2 - Buscar cliente");
+    Console.WriteLine("3 - Apagar cliente");
+    Console.WriteLine("4 - Encerrar");
+
+    opcao = Console.ReadLine();
 }
 
 
@@ -39,6 +56,28 @@ class amemEx{
 
 
 
+
+
+
+
+
+
+
+// -----------------------------------------------------------------------
+
+
+/*
+sumary = habilitar vscode preferences>editor:format on type> controls on >tic< /// 
+
+///> sumary comentario para descrever a classe
+*/
+//ou  métodos /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="x">Um numero para somar </param> 
+        /// <param name="y">Um numero para somar </param>
+
+//comentar somente genericos/necessários
 
 
 

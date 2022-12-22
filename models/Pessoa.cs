@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 
 namespace amem.models
 {
+    /// <summary>
+    /// comentário p/ descrever a classe
+    /// </summary>
     public class Pessoa
     {
         public string? Nome { get; set; }
