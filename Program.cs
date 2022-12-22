@@ -14,7 +14,7 @@
 // // TODO: Crie as outras condições necessárias para a resolução do desafio:
 //         for (                 )
 //         {
-            
+
 //             string a = v[0];
 //             string b = v[1];
 
@@ -35,7 +35,7 @@
 // ---------------------------------------------------------------------------
 
 
-while(true)
+while (true)
 {
     Console.WriteLine("Digite a sua opção:");
     Console.WriteLine("1 - Cadastrar cliente");
@@ -44,9 +44,31 @@ while(true)
     Console.WriteLine("4 - Encerrar");
 
     opcao = Console.ReadLine();
+
+    switch (opcao)
+    {
+        case "1":
+            Console.WriteLine("Cadastro de cliente");
+            break;
+
+        case "2":
+            Console.WriteLine("Busca de cliente");
+            break;
+
+        case "3":
+            Console.WriteLine("Apagar cliente");
+            break;
+
+
+        case "4":
+            Console.WriteLine("Encerrar");
+            Environment.Exit(0);
+            break;
+            
+
+
+    }
 }
-
-
 
 
 
@@ -72,10 +94,10 @@ sumary = habilitar vscode preferences>editor:format on type> controls on >tic< /
 ///> sumary comentario para descrever a classe
 */
 //ou  métodos /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="x">Um numero para somar </param> 
-        /// <param name="y">Um numero para somar </param>
+/// 
+/// </summary>
+/// <param name="x">Um numero para somar </param> 
+/// <param name="y">Um numero para somar </param>
 
 //comentar somente genericos/necessários
 
@@ -591,7 +613,7 @@ sumary = habilitar vscode preferences>editor:format on type> controls on >tic< /
 // }
 // else
 // {
-    
+
 // }
 
 // DEPURAÇÃO -> Clica na bola ao lado esquerdo da linha. f5, e depois f5.  f10 avan~ça
@@ -620,4 +642,4 @@ sumary = habilitar vscode preferences>editor:format on type> controls on >tic< /
 // pessoa1.Nome = "Denis";
 // pessoa1.Idade = 26;
 // pessoa1.Apresentar();
- 
+
